@@ -1,0 +1,16 @@
+package exercicios;
+
+public class exercicio04 {
+	public static void main(String[] args) {
+		String txt1 = "voce e fofo professor";
+		String txt2 = "voce nao e fofo professor";
+		System.out.println("txt1: " + txt1 + ", txt2: " + txt2);
+		if (txt1 == txt2) {
+			System.out.println("Os textos são iguais");
+		}
+		else {
+			System.out.println("Os textos não são iguais");
+		}
+		
+	}
+}
